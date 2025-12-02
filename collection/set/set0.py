@@ -1,0 +1,15 @@
+st={8,2,7,1,2,8} #since true=1
+print(max(st))
+#how to add an element to list
+st.add(22)
+print(st)
+st.add(11)
+print(st)
+st.update((0,99,76))
+print(st)
+st.remove(99)
+print(st)
+st.discard(0)
+print(st)
+st.pop()
+print(st)

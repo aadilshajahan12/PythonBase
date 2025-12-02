@@ -15,10 +15,10 @@
 # Example 3:
 # num_list = [2, 3, 3, 5]
 # Output: 7 (Repeated number: 3, Missing number: 4, Sum: 3 + 4 = 7)
-num_list = [1,1,3,4]
+num_list = [1,2,3,3,5]
 l=[]
 for i in num_list:
    if i in l:
-       print('repeated number ',i,'missing number',i+1,'sum=',2*i+1)
+       print('repeated number ',i,'missing number',i+1,'sum=',i+(i+1))
    else:
        l.append(i)
